@@ -14,9 +14,10 @@
 #include <E-mail.h>
 #include <Entry.h>
 #include <File.h>
-#include <socket.h>
+#include <sys/socket.h>
 #include <netdb.h>
 #include <stdio.h>
+#include <arpa/inet.h>
 
 
 

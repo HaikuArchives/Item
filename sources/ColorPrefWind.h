@@ -4,6 +4,7 @@
 #define _H_ColorPrefWind_
 
 #include <Window.h>
+#include <ColorControl.h>
 
 class ColorPrefControl;
 

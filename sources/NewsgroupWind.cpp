@@ -10,7 +10,7 @@
 #include "FilterGroup.h"
 #include "Filter.h"
 #include "ExtractBinariesThread.h"
-#include "Prefs.h"
+#include "Preferences.h"
 #include "qstring.h"
 #include "Messages.h"
 #include <MenuBar.h>

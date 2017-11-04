@@ -2,7 +2,7 @@
 
 #include "TasksWind.h"
 #include "TasksView.h"
-#include "Prefs.h"
+#include "Preferences.h"
 #include <Screen.h>
 #include <Autolock.h>
 

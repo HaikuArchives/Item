@@ -1,7 +1,7 @@
 /* PrefsChangeClient.cpp */
 
 #include "PrefsChangeClient.h"
-#include "Prefs.h"
+#include "Preferences.h"
 
 
 PrefsChangeClient::PrefsChangeClient()

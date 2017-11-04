@@ -4,6 +4,7 @@
 #define _H_ServerDlog_
 
 #include <Window.h>
+#include <TextControl.h>
 
 class ServerDlog : public BWindow {
 public:

@@ -4,8 +4,8 @@
 #include "NNTPResponse.h"
 #include "RespBuffer.h"
 #include "Logger.h"
-#include "Prefs.h"
-#include <socket.h>
+#include "Preferences.h"
+#include <sys/socket.h>
 #include <netdb.h>
 #include <errno.h>
 #include <string.h>
@@ -22,7 +22,7 @@ NNTPConnection::NNTPConnection()
 NNTPConnection::~NNTPConnection()
 {
 	if (socketID != -1)
-		closesocket(socketID);
+		close(socketID);
 }
 
 
@@ -60,7 +60,7 @@ status_t NNTPConnection::Connect()
 	int err = connect(socketID, (sockaddr*) &remoteSocket, sizeof(remoteSocket));
 	if (err != B_NO_ERROR) {
 		initResult = errno;
-		closesocket(socketID);
+		close(socketID);
 		socketID = -1;
 		return initResult;
 		}
@@ -137,7 +137,7 @@ status_t NNTPConnection::SendCommand(string_slice command)
 
 		// close the socket (locally)
 		qstring group = curGroup;	// save this before we clear it
-		closesocket(socketID);
+		close(socketID);
 		socketID = -1;
 		curGroup = "";
 
@@ -209,7 +209,7 @@ status_t NNTPConnection::GetResponse(NNTPResponse** respLineOut)
 	status_t result = response->Read(logger);
 	if (result < B_NO_ERROR) {
 		delete response;
-		return result;		
+		return result;
 		}
 
 	// handle authentication
@@ -295,8 +295,8 @@ string_slice NNTPConnection::CurrentGroup()
 struct in_addr NNTPConnection::LocalIPAddr()
 {
 	struct sockaddr_in interface;
-	int size = sizeof(interface);
-	getsockname(socketID, (struct sockaddr*) &interface, &size);
+	socklen_t size = sizeof(interface);
+	getsockname(socketID, (struct sockaddr*)&interface, &size);
 	return interface.sin_addr;
 }
 

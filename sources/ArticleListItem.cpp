@@ -1,6 +1,9 @@
 /* ArticleListItem.cpp */
 
 #include "ArticleListItem.h"
+
+#include <View.h>
+
 #include "Article.h"
 #include "Newsgroup.h"
 #include "OpenArticleThread.h"
@@ -33,7 +36,7 @@ void ArticleListItem::DrawItem(BView* view, BRect itemRect, bool drawEverything)
 
 bool ArticleListItem::Open(Newsgroup* newsgroup)
 {
-	OpenArticleThread* thread = new OpenArticleThread(newsgroup, article->ArticleNo());
+	OpenArticleThread* thread = new OpenArticleThread(newsgroup, article->ArticleNo(), "", 0);
 	thread->Go();
 	article->SetRead(true);
 	return true;

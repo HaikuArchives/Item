@@ -5,7 +5,7 @@
 #include "FontPrefControl.h"
 #include "NNTPApp.h"
 #include "ConnectionPool.h"
-#include "Prefs.h"
+#include "Preferences.h"
 #include "ListColors.h"
 #include "Messages.h"
 #include "qstring.h"

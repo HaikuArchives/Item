@@ -72,7 +72,7 @@ void OpenArticleThread::Action()
 
 	// open the file
 	BPath path;
-	result = find_directory(B_COMMON_TEMP_DIRECTORY, &path, true);
+	result = find_directory(B_SYSTEM_TEMP_DIRECTORY, &path, true);
 	if (result != B_NO_ERROR) {
 		Error::ShowError("Couldn't find temp directory.", result);
 		delete response;

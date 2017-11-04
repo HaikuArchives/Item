@@ -1,8 +1,9 @@
 /* ColorPrefControl.cpp */
 
 #include "ColorPrefControl.h"
-#include "Prefs.h"
+#include "Preferences.h"
 #include "ColorPrefWind.h"
+
 #include <Region.h>
 #include <Message.h>
 

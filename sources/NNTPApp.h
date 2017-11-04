@@ -5,6 +5,7 @@
 
 #include "ThreadOwner.h"
 #include <Application.h>
+#include <FilePanel.h>
 
 class Filters;
 class AllGroupsList;

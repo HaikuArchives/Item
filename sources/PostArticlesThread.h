@@ -5,6 +5,9 @@
 
 #include "OwnedThread.h"
 
+#include <List.h>
+#include <Entry.h>
+
 class NNTPConnection;
 class Task;
 class qstring;

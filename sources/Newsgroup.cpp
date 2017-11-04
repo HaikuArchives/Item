@@ -15,7 +15,7 @@
 #include "Task.h"
 #include "NNTPApp.h"
 #include "Newsrc.h"
-#include "Prefs.h"
+#include "Preferences.h"
 #include "FileNames.h"
 #include <stdio.h>
 #include <File.h>

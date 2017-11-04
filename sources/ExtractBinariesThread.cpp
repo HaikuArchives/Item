@@ -9,7 +9,7 @@
 #include "NNTPResponse.h"
 #include "SubjectsView.h"
 #include "Task.h"
-#include "Prefs.h"
+#include "Preferences.h"
 #include "Error.h"
 #include "OSException.h"
 #include <File.h>

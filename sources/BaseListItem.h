@@ -3,6 +3,7 @@
 #ifndef _H_BaseListItem_
 #define _H_BaseListItem_
 
+#include <ListItem.h>
 
 class Newsgroup;
 

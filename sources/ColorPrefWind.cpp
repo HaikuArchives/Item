@@ -2,7 +2,7 @@
 
 #include "ColorPrefWind.h"
 #include "ColorPrefControl.h"
-#include "Prefs.h"
+#include "Preferences.h"
 #include <ColorControl.h>
 #include <Screen.h>
 

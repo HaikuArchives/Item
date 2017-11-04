@@ -2,7 +2,7 @@
 
 #include "FontPrefControl.h"
 #include "FontUtils.h"
-#include "Prefs.h"
+#include "Preferences.h"
 #include "Messages.h"
 #include <Message.h>
 #include <PopUpMenu.h>

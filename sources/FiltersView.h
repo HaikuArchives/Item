@@ -5,6 +5,8 @@
 
 #include "AATreeListView.h"
 
+#include <TextControl.h>
+
 class Filter;
 
 class FiltersView : public AATreeListView {

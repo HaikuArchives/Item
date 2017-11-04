@@ -7,6 +7,8 @@
 #include "OpenArticleThread.h"
 #include "qstring.h"
 
+#include <View.h>
+
 const float SubjectListItem::SubjectStart = 10;
 const float SubjectListItem::MarkStart = 3;
 
@@ -28,9 +30,9 @@ void SubjectListItem::DrawItem(BView* view, BRect itemRect, bool drawEverything)
 		view->DrawString("–", BPoint(itemRect.left + MarkStart, itemRect.bottom - Baseline));
 
 	// draw subject
-	qstring str = subject->Subject();
+	qstring str = subject->GetSubject();
 	view->DrawString(str.c_str(),
-	                 BPoint(itemRect.left + SubjectStart, itemRect.bottom - Baseline));
+		BPoint(itemRect.left + SubjectStart, itemRect.bottom - Baseline));
 }
 
 
@@ -40,7 +42,7 @@ bool SubjectListItem::Open(Newsgroup* newsgroup)
 	if (article == NULL)
 		article = subject->ArticleAt(0);
 	article->SetRead(true);
-	OpenArticleThread* thread = new OpenArticleThread(newsgroup, article->ArticleNo());
+	OpenArticleThread* thread = new OpenArticleThread(newsgroup, article->ArticleNo(), "", 0);
 	thread->Go();
 	return (subject->FirstUnreadArticle() == NULL);
 }

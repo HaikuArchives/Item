@@ -1,10 +1,10 @@
-The English Editor II
+Item
 ==============================
- Item is a newsreader for BeOS. It is more or less modelled after MT-Newswatcher on the Mac--in
- fact you can even open your MT-Newswatcher newsgroup files with it. It has two advantages
- over MT-Newswatcher: it is a bit more multithreaded and "live", and it caches headers.
- These two features together mean that when you open up a newsgroup, you don't have to wait before
- you can start reading articles in the group.
+Item is a newsreader for BeOS. It is more or less modelled after MT-Newswatcher on the Mac--in
+fact you can even open your MT-Newswatcher newsgroup files with it. It has two advantages
+over MT-Newswatcher: it is a bit more multithreaded and "live", and it caches headers.
+These two features together mean that when you open up a newsgroup, you don't have to wait before
+you can start reading articles in the group.
 
 However, Item still has a few rough edges and missing features. I'm sure you'll
 discover these for yourself as you use it.
@@ -14,7 +14,7 @@ Item deals with most of the newsreading process, but it doesn't actually show yo
 nor allow you to compose articles. Instead, it lets you choose whatever editor you like for
 viewing/editing news articles. Most editors don't have any special facility for this,
 so I strongly recommend using The English Editor II, which does. EE2 is not complete yet,
-but it provides what you might call "a unique newsreading experience". 
+but it provides what you might call "a unique newsreading experience".
 
 So, first download Item and The English Editor II. Then, you'll need to tell BeOS that
 The English Editor II is your preferred application for news article files. To do this,

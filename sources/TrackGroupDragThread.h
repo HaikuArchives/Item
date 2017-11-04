@@ -5,6 +5,8 @@
 
 #include "Thread.h"
 
+#include <Message.h>
+
 class ScrolledListView;
 class Newsrc;
 

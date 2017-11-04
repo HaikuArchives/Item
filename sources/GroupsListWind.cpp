@@ -4,7 +4,7 @@
 #include "GroupsList.h"
 #include "GroupsListView.h"
 #include "NNTPApp.h"
-#include "Prefs.h"
+#include "Preferences.h"
 #include <ScrollView.h>
 
 const float GroupsListWind::defaultWidth = 300;

@@ -1,7 +1,7 @@
 /* ServerDlog.cpp */
 
 #include "ServerDlog.h"
-#include "Prefs.h"
+#include "Preferences.h"
 #include <TextControl.h>
 #include <Button.h>
 #include <Message.h>

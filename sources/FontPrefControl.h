@@ -5,6 +5,7 @@
 
 #include <View.h>
 #include <Window.h>
+#include <TextControl.h>
 
 #include "string_slice.h"
 #include "qstring.h"

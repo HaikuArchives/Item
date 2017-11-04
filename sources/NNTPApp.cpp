@@ -15,7 +15,7 @@
 #include "ServerDlog.h"
 #include "TasksWind.h"
 #include "Messages.h"
-#include "Prefs.h"
+#include "Preferences.h"
 #include <Entry.h>
 #include <Message.h>
 #include <File.h>

@@ -10,7 +10,7 @@
 #include "NewsgroupWind.h"
 #include "FontUtils.h"
 #include "ListColors.h"
-#include "Prefs.h"
+#include "Preferences.h"
 #include "qstring.h"
 #include "Messages.h"
 #include <stdio.h>

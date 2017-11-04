@@ -5,7 +5,7 @@
 #include "FiltersView.h"
 #include "Filters.h"
 #include "Messages.h"
-#include "Prefs.h"
+#include "Preferences.h"
 #include <MenuBar.h>
 #include <Menu.h>
 #include <MenuItem.h>

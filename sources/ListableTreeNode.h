@@ -4,8 +4,7 @@
 #define _H_ListableTreeNode_
 
 #include "AATreeNode.h"
-
-class ListableObject;
+#include "ListableObject.h"
 
 class ListableTreeNode : public AATreeNode {
 public:

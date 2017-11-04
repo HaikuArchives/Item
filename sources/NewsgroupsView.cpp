@@ -10,7 +10,7 @@
 #include "DragUtils.h"
 #include "FontUtils.h"
 #include "ListColors.h"
-#include "Prefs.h"
+#include "Preferences.h"
 #include "string_slice.h"
 #include "qstring.h"
 #include <Alert.h>

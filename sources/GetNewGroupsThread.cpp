@@ -7,7 +7,7 @@
 #include "NNTPResponse.h"
 #include "NNTPApp.h"
 #include "Task.h"
-#include "Prefs.h"
+#include "Preferences.h"
 #include "OSException.h"
 
 

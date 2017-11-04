@@ -9,7 +9,7 @@
 #include "ConnectionPool.h"
 #include "OpenGroupThread.h"
 #include "ArticleSet.h"
-#include "Prefs.h"
+#include "Preferences.h"
 #include <stdio.h>
 
 extern void ArticleSetTest();

@@ -5,6 +5,7 @@
 
 #include <Window.h>
 #include <Messenger.h>
+#include <TextControl.h>
 
 class AddGroupDlog : public BWindow {
 public:

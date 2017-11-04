@@ -1,7 +1,7 @@
 /* ColorPrefWatcher.cpp */
 
 #include "ColorPrefWatcher.h"
-#include "Prefs.h"
+#include "Preferences.h"
 
 
 

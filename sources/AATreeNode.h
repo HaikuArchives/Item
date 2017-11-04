@@ -5,6 +5,8 @@
 
 #include <SupportDefs.h>
 
+#include "OrderedObject.h"
+
 class AATreeNode {
 public:
 	inline	AATreeNode(OrderedObject* objectIn);

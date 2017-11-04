@@ -3,7 +3,7 @@
 #include "ConnectionPool.h"
 #include "NNTPConnection.h"
 #include "Messages.h"
-#include "Prefs.h"
+#include "Preferences.h"
 #include "Error.h"
 #include <Autolock.h>
 

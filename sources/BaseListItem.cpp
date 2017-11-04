@@ -2,6 +2,9 @@
 
 #include "BaseListItem.h"
 
+#include <GraphicsDefs.h>
+#include <View.h>
+
 const rgb_color BaseListItem::HiliteColor = { 192, 192, 192, 255 };
 const rgb_color BaseListItem::TextColor = { 0, 0, 0, 255 };
 const float BaseListItem::Baseline = 3;

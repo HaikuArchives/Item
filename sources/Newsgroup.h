@@ -8,6 +8,7 @@
 #include "IntRange.h"
 #include <parsedate.h>
 #include <SupportDefs.h>
+#include <List.h>
 
 class Newsrc;
 class SubjectSubjectTree;

@@ -4,7 +4,7 @@
 #include "NewsgroupsView.h"
 #include "GetGroupStatsThread.h"
 #include "NNTPApp.h"
-#include "Prefs.h"
+#include "Preferences.h"
 #include "qstring.h"
 #include "Messages.h"
 #include <MenuBar.h>

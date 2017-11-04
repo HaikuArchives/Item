@@ -4,6 +4,7 @@
 #define _H_PrefsDlog_
 
 #include <Window.h>
+#include <TextControl.h>
 
 class ColorPrefControl;
 class FontPrefControl;

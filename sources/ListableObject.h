@@ -3,10 +3,12 @@
 #ifndef _H_ListableObject_
 #define _H_ListableObject_
 
-#include "OrderedObject.h"
 #include <SupportDefs.h>
 #include <GraphicsDefs.h>
 #include <Rect.h>
+#include <View.h>
+
+#include "OrderedObject.h"
 
 class AATreeListView;
 
